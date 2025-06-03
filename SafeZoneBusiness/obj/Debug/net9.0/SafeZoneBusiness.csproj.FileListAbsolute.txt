@@ -1,0 +1,15 @@
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\bin\Debug\net9.0\SafeZoneBusiness.deps.json
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\bin\Debug\net9.0\SafeZoneBusiness.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\bin\Debug\net9.0\SafeZoneBusiness.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\bin\Debug\net9.0\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\bin\Debug\net9.0\SafeZoneModel.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.csproj.AssemblyReference.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.AssemblyInfoInputs.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.AssemblyInfo.cs
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.csproj.CoreCompileInputs.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZone.71C579FD.Up2Date
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\refint\SafeZoneBusiness.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\ref\SafeZoneBusiness.dll

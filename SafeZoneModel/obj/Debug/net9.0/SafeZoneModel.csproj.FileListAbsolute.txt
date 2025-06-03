@@ -1,0 +1,11 @@
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\bin\Debug\net9.0\SafeZoneModel.deps.json
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\bin\Debug\net9.0\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\bin\Debug\net9.0\SafeZoneModel.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.AssemblyInfoInputs.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.AssemblyInfo.cs
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.csproj.CoreCompileInputs.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\refint\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\ref\SafeZoneModel.dll

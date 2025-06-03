@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SafeZoneBusiness/1.0.0": {
+        "dependencies": {
+          "SafeZoneModel": "1.0.0"
+        },
+        "runtime": {
+          "SafeZoneBusiness.dll": {}
+        }
+      },
+      "SafeZoneModel/1.0.0": {
+        "runtime": {
+          "SafeZoneModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SafeZoneBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SafeZoneModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Id8gFKI9ew0ffmd1ciUkSlG3LAxhYV8O/WF57Inh7Ws=",
+  "Source": "SafeZoneApi",
+  "BasePath": "_content/SafeZoneApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
