@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafeZoneBusiness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4960509ceab18c726cb744c00ef7a6c2c4d4aebd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafeZoneBusiness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafeZoneBusiness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

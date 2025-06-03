@@ -9,3 +9,4 @@ D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneMo
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\refint\SafeZoneModel.dll
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.pdb
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\ref\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneModel\obj\Debug\net9.0\SafeZoneModel.sourcelink.json

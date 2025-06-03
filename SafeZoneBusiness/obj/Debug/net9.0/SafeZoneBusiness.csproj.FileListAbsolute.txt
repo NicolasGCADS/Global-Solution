@@ -13,3 +13,4 @@ D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZon
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\refint\SafeZoneBusiness.dll
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.pdb
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\ref\SafeZoneBusiness.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneBusiness\obj\Debug\net9.0\SafeZoneBusiness.sourcelink.json

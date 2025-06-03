@@ -9,3 +9,10 @@ D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZoneDat
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\refint\SafeZoneData.dll
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZoneData.pdb
 D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\ref\SafeZoneData.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\bin\Debug\net9.0\SafeZoneModel.dll
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\bin\Debug\net9.0\SafeZoneModel.pdb
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZoneData.csproj.AssemblyReference.cache
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZoneData.sourcelink.json
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZone.F740905D.Up2Date
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\bin\Debug\net9.0\SafeZoneData.runtimeconfig.json
+D:\Fiap\Projeto\2TDSPX\Global Solucion\SafeZoneData\obj\Debug\net9.0\SafeZoneData.genruntimeconfig.cache
