@@ -1,0 +1,18 @@
+﻿@page
+@model SafeZoneMVP.Pages.AlertasModel
+@{
+    ViewData["Title"] = "Últimos Alertas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="list-group">
+    @foreach (var alerta in Model.ListaAlertas)
+    {
+        <div class="list-group-item">
+            <h5 class="mb-1">@alerta.Tipo</h5>
+            <p class="mb-1">@alerta.Descricao</p>
+            <small class="text-muted">@alerta.DataHora.ToString("dd/MM/yyyy HH:mm")</small>
+        </div>
+    }
+</div>
