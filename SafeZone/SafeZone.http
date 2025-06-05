@@ -1,1 +1,149 @@
-@SafeZone_HostAddress = http://localhost:5015
+﻿@baseUrl = http://localhost:5015
+###https://localhost:7268
+
+##Rode Em https
+
+### 🟢 GET - Listar todos os usuários
+GET {{baseUrl}}/api/Usuario
+Accept: application/json
+
+### 🔵 POST - Criar um novo usuário
+POST {{baseUrl}}/api/Usuario
+Content-Type: application/json
+
+{
+  "id": 1,
+  "email": "usuario@email.com",
+  "password": "123456",
+  "role": "Admin"
+}
+
+### 🟡 GET - Obter usuário por ID
+GET {{baseUrl}}/api/Usuario/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar usuário por ID
+PUT {{baseUrl}}/api/Usuario/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "email": "usuario@atualizado.com",
+  "password": "novaSenha123",
+  "role": "User"
+}
+
+### 🔴 DELETE - Remover usuário por ID
+DELETE {{baseUrl}}/api/Usuario/1
+Accept: application/json
+
+
+
+### 🟢 GET - Listar todas as leituras
+GET {{baseUrl}}/api/Leitura
+Accept: application/json
+
+### 🔵 POST - Criar uma nova leitura
+POST {{baseUrl}}/api/Leitura
+Content-Type: application/json
+
+{
+  "id": 1,
+  "dataHora": "2025-06-04T19:45:00",
+  "temperatura": 35.8,
+  "umidade": 70.2
+}
+
+### 🟡 GET - Obter leitura por ID
+GET {{baseUrl}}/api/Leitura/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar leitura por ID
+PUT {{baseUrl}}/api/Leitura/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "dataHora": "2025-06-04T20:00:00",
+  "temperatura": 36.1,
+  "umidade": 72.5
+}
+
+### 🔴 DELETE - Remover leitura por ID
+DELETE {{baseUrl}}/api/Leitura/1
+Accept: application/json
+
+
+
+### 🟢 GET - Listar todos os dispositivos
+GET {{baseUrl}}/api/Dispositivo
+Accept: application/json
+
+### 🔵 POST - Criar um novo dispositivo
+POST {{baseUrl}}/api/Dispositivo
+Content-Type: application/json
+
+{
+  "id": 1,
+  "latitude": -23.55052,
+  "longitude": -46.63331,
+  "descricao_Local": "Galpão Central",
+  "ativo": 1
+}
+
+### 🟡 GET - Obter dispositivo por ID
+GET {{baseUrl}}/api/Dispositivo/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar dispositivo por ID
+PUT {{baseUrl}}/api/Dispositivo/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "latitude": -23.55052,
+  "longitude": -46.63331,
+  "descricao_Local": "Galpão Central - Atualizado",
+  "ativo": 0
+}
+
+### 🔴 DELETE - Remover dispositivo por ID
+DELETE {{baseUrl}}/api/Dispositivo/1
+Accept: application/json
+
+
+
+### 🟢 GET - Listar todos os alertas
+GET {{baseUrl}}/api/Alerta
+Accept: application/json
+
+### 🔵 POST - Criar um novo alerta
+POST {{baseUrl}}/api/Alerta
+Content-Type: application/json
+
+{
+  "id": 1,
+  "tipo": "Queimada Eminente!!",
+  "descricao": "Dispositivo Delta detectou alta temperatura",
+  "dataHora": "2025-05-27T19:32:00"
+}
+
+### 🟡 GET - Obter alerta por ID
+GET {{baseUrl}}/api/Alerta/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar alerta por ID
+PUT {{baseUrl}}/api/Alerta/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "tipo": "Temperatura Normalizada",
+  "descricao": "Nível crítico resolvido",
+  "dataHora": "2025-05-27T20:00:00"
+}
+
+### 🔴 DELETE - Remover alerta por ID
+DELETE {{baseUrl}}/api/Alerta/1
+Accept: application/json
+

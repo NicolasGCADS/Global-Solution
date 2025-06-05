@@ -1,0 +1,42 @@
+﻿@page
+@model SafeZoneMVP.Pages.UsuarioModel
+@{
+    ViewData["Title"] = "Usuários";
+}
+
+<div style="max-width: 480px; margin: auto; font-family: Arial, sans-serif; padding: 15px;">
+
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center;">
+            <img src="~/logo_safezone-removebg-preview 2.png" alt="SafeZone Logo" style="height: 40px;" />
+        </div>
+        <span style="font-size: 16px;">Admin</span>
+    </div>
+
+ 
+    <h2 style="margin-top: 20px;">
+        Lista de <span style="color: orange;">Usuários</span>
+    </h2>
+
+
+    <div style="background-color: #e0e0e0; padding: 10px; border-radius: 8px;">
+        @foreach (var usuario in Model.ListaUsuarios)
+        {
+            <div style="background-color: #c9c9c9; padding: 10px; border-radius: 10px; margin-bottom: 10px;">
+                <strong>ID:</strong> @usuario.Id<br />
+                <strong>Email:</strong> @usuario.Email<br />
+                <small>Cargo: @usuario.Role</small>
+            </div>
+        }
+    </div>
+
+   
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; background-color: orange; display: flex; justify-content: space-around; padding: 10px 0;">
+        <a href="/Index" style="color: maroon; text-decoration: none;">
+            <i class="bi bi-house-door-fill" style="font-size: 24px;"></i>
+        </a>
+        <a href="/Alertas" style="color: white; text-decoration: none;">
+            <i class="bi bi-exclamation-triangle-fill" style="font-size: 24px;"></i>
+        </a>
+    </div>
+</div>

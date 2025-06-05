@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafeZoneData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f1465def5f912780c84c123dd92209305604099")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525de6bbd3e855e48a041f5d16799b7be123e802")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafeZoneData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafeZoneData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

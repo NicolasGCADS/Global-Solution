@@ -4,15 +4,39 @@
     ViewData["Title"] = "Últimos Alertas";
 }
 
-<h1>@ViewData["Title"]</h1>
-
-<div class="list-group">
-    @foreach (var alerta in Model.ListaAlertas)
-    {
-        <div class="list-group-item">
-            <h5 class="mb-1">@alerta.Tipo</h5>
-            <p class="mb-1">@alerta.Descricao</p>
-            <small class="text-muted">@alerta.DataHora.ToString("dd/MM/yyyy HH:mm")</small>
+<div style="max-width: 480px; margin: auto; font-family: Arial, sans-serif; padding: 15px;">
+   
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center;">
+            <img src="~/logo_safezone-removebg-preview 2.png" alt="SafeZone Logo" style="height: 40px;" />
         </div>
-    }
+        <span style="font-size: 16px;">Admin</span>
+    </div>
+
+    
+    <h2 style="margin-top: 20px;">
+        Últimos <span style="color: orange;">Alertas</span>
+    </h2>
+
+    
+    <div style="background-color: #e0e0e0; padding: 10px; border-radius: 8px;">
+        @foreach (var alerta in Model.ListaAlertas)
+        {
+            <div style="background-color: #c9c9c9; padding: 10px; border-radius: 10px; margin-bottom: 10px;">
+                <strong>@alerta.Tipo</strong><br />
+                <small>@alerta.Descricao</small><br />
+                <small>@alerta.DataHora.ToString("HH:mm - dd/MM/yyyy")</small>
+            </div>
+        }
+    </div>
+
+    
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; background-color: orange; display: flex; justify-content: space-around; padding: 10px 0;">
+        <a href="/Index" style="color: maroon; text-decoration: none;">
+            <i class="bi bi-house-door-fill" style="font-size: 24px;"></i>
+        </a>
+        <a href="/Usuarios" style="color: white; text-decoration: none;">
+            <i class="bi bi-people-fill" style="font-size: 24px;"></i>
+        </a>
+    </div>
 </div>
