@@ -78,6 +78,7 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ## Diagrama 
 
+```mermaid
 sequenceDiagram
     participant U as Usuario/Bombeiro
     participant M as Mobile
