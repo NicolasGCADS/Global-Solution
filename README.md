@@ -76,6 +76,22 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ---
 
+## Diagrama 
+
+sequenceDiagram
+    participant U as Usuario/Bombeiro
+    participant M as Mobile
+    participant L as Leitura
+    participant D as Dispositivos
+
+    U->>M: Cria Conta
+    D-->>L: Capta
+    L-->>M: Envia
+    M-->>U: Alerta
+
+
+---
+
 ## Configure a string de conexão Oracle no appsettings.json:
 json
 
