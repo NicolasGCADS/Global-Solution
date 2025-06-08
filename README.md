@@ -71,7 +71,7 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 1. Git clone https://github.com/NicolasGCADS/Global-Solution.git
 2. Selecione a pasta SafeZoneApi e selecione SafeZoneApi.sln para compilar o projeto completo
 3. Ao rodar o Crud, rode com HTTPS 
-4. Ao rodar o Crud com Swagger, rode com esse link http://localhost:7268/swagger/index.html
+4. Ao rodar o Crud com Swagger, rode com esse link https://localhost:7268/swagger/index.html
 5. Ao rodar o Razor, rode com esse link https://localhost:7160
 
 ---
