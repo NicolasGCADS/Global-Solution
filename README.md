@@ -76,6 +76,195 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ---
 
+## 💻Testes para Rodar 
+
+POST /api/usuario
+📌 Cadastra um novo usuário
+
+json
+Copiar
+Editar
+{
+  "email": "robertolima@gmail.com",
+  "senha": "Roberto123",
+  "role": "ADMIN"
+}
+http
+Copiar
+Editar
+GET /api/usuario
+📌 Lista todos os usuários
+
+http
+Copiar
+Editar
+GET /api/usuario/{id}
+📌 Retorna os dados de um usuário
+
+http
+Copiar
+Editar
+PUT /api/usuario/{id}
+📌 Atualiza os dados de um usuário
+
+json
+Copiar
+Editar
+{
+  "email": "julicesar@gmail.com",
+  "senha": "Julio123",
+  "role": "ADMIN"
+}
+http
+Copiar
+Editar
+DELETE /api/usuario/{id}
+📌 Remove um usuário
+
+🌡️ Leitura
+http
+Copiar
+Editar
+POST /api/leitura
+📌 Registra uma nova leitura
+
+json
+Copiar
+Editar
+{
+  "dataHora": "2025-06-08T12:00:00",
+  "temperatura": 31.5,
+  "umidade": 65.2
+}
+http
+Copiar
+Editar
+GET /api/leitura
+📌 Lista todas as leituras
+
+http
+Copiar
+Editar
+GET /api/leitura/{id}
+📌 Retorna os dados de uma leitura
+
+http
+Copiar
+Editar
+PUT /api/leitura/{id}
+📌 Atualiza uma leitura
+
+json
+Copiar
+Editar
+{
+  "dataHora": "2025-06-08T15:00:00",
+  "temperatura": 30.1,
+  "umidade": 60.0
+}
+http
+Copiar
+Editar
+DELETE /api/leitura/{id}
+📌 Remove uma leitura
+
+📍 Dispositivo
+http
+Copiar
+Editar
+POST /api/dispositivo
+📌 Cadastra um novo dispositivo
+
+json
+Copiar
+Editar
+{
+  "latitude": -23.5505,
+  "longitude": -46.6333,
+  "descricao_Local": "Garagem Principal",
+  "ativo": 1
+}
+http
+Copiar
+Editar
+GET /api/dispositivo
+📌 Lista todos os dispositivos
+
+http
+Copiar
+Editar
+GET /api/dispositivo/{id}
+📌 Retorna os dados de um dispositivo
+
+http
+Copiar
+Editar
+PUT /api/dispositivo/{id}
+📌 Atualiza um dispositivo
+
+json
+Copiar
+Editar
+{
+  "latitude": -23.5560,
+  "longitude": -46.6400,
+  "descricao_Local": "Garagem Secundária",
+  "ativo": 0
+}
+http
+Copiar
+Editar
+DELETE /api/dispositivo/{id}
+📌 Remove um dispositivo
+
+🚨 Alerta
+http
+Copiar
+Editar
+POST /api/alerta
+📌 Cria um novo alerta
+
+json
+Copiar
+Editar
+{
+  "tipo": "FUMAÇA",
+  "descricao": "Sensor detectou fumaça na garagem A",
+  "dataHora": "2025-06-08T14:45:00"
+}
+http
+Copiar
+Editar
+GET /api/alerta
+📌 Lista todos os alertas
+
+http
+Copiar
+Editar
+GET /api/alerta/{id}
+📌 Retorna os dados de um alerta
+
+http
+Copiar
+Editar
+PUT /api/alerta/{id}
+📌 Atualiza um alerta
+
+json
+Copiar
+Editar
+{
+  "tipo": "CALOR",
+  "descricao": "Temperatura crítica detectada na garagem B",
+  "dataHora": "2025-06-08T15:20:00"
+}
+http
+Copiar
+Editar
+DELETE /api/alerta/{id}
+📌 Remove um alerta
+
+
 ## Diagrama 
 
 ```mermaid
@@ -110,3 +299,11 @@ Guilherme Romanholi Santos - RM557462
 Murilo Capristo - RM556794
 
 Nicolas Guinante Cavalcanti - RM557844
+
+---
+
+## Videos
+
+Video demostrativo de C# https://youtu.be/KYQzSGXQH9s
+
+Video Pitch https://youtu.be/kOYEASWNoU4
