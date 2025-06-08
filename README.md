@@ -90,7 +90,7 @@ sequenceDiagram
     L-->>M: Envia
     M-->>U: Alerta
 
-
+```
 ---
 
 ## Configure a string de conexão Oracle no appsettings.json:
