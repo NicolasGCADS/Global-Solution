@@ -1,9 +1,9 @@
-#🌡️ SafeZone - API REST em .NET  
+## 🌡️ SafeZone - API REST em .NET  
 Este projeto é uma Web API desenvolvida em ASP.NET Core, que permite o controle de dispositivos IoT e alertas ambientais com operações básicas de CRUD (Create, Read, Update, Delete). A aplicação segue uma arquitetura em camadas, com separação de responsabilidades entre Model, Business, Data e API.
 
 ---
 
-#🌍 Nome do Projeto: SafeZone  
+## 🌍 Nome do Projeto: SafeZone  
 O projeto SafeZone nasceu da necessidade de monitorar ambientes sensíveis a mudanças climáticas e variações extremas de temperatura e umidade. Ambientes como garagens, espaços industriais ou locais que abrigam populações vulneráveis precisam de uma solução confiável e em tempo real para detectar riscos.
 
 O sistema utiliza sensores conectados a dispositivos IoT, que coletam informações ambientais e as transmitem para uma Web API. Essa API organiza os dados e emite **alertas automáticos** caso os valores ultrapassem os limites seguros.
@@ -12,7 +12,7 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ---
 
-#🔗 Rotas  
+## 🔗 Rotas  
 🔹 UsuarioController  
 
 | Método | Endpoint               | Descrição                |
@@ -53,7 +53,9 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 | PUT    | /api/alerta/{id}     | Atualiza um alerta          |
 | DELETE | /api/alerta/{id}     | Remove um alerta            |
 
-🚀 Tecnologias Utilizadas  
+---
+
+## 🚀 Tecnologias Utilizadas  
 - .NET 8  
 - ASP.NET Core Web API  
 - Entity Framework Core  
@@ -65,7 +67,7 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ---
 
-💻 Como Rodar  
+## 💻 Como Rodar  
 1. Git clone https://github.com/NicolasGCADS/Global-Solution.git
 2. Selecione a pasta SafeZoneApi e selecione SafeZoneApi.sln para compilar o projeto completo
 3. Ao rodar o Crud, rode com HTTPS 
@@ -74,7 +76,7 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ---
 
-Configure a string de conexão Oracle no appsettings.json:
+## Configure a string de conexão Oracle no appsettings.json:
 json
 
 "ConnectionStrings": {
@@ -84,7 +86,7 @@ json
 
 ---
 
-🧑‍💻 Integrantes do Grupo
+## 🧑‍💻 Integrantes do Grupo
 
 Guilherme Romanholi Santos - RM557462
 
