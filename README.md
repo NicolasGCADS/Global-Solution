@@ -1,14 +1,18 @@
-🌡️ SafeZone - API REST em .NET  
+#🌡️ SafeZone - API REST em .NET  
 Este projeto é uma Web API desenvolvida em ASP.NET Core, que permite o controle de dispositivos IoT e alertas ambientais com operações básicas de CRUD (Create, Read, Update, Delete). A aplicação segue uma arquitetura em camadas, com separação de responsabilidades entre Model, Business, Data e API.
 
-🌍 Nome do Projeto: SafeZone  
+---
+
+#🌍 Nome do Projeto: SafeZone  
 O projeto SafeZone nasceu da necessidade de monitorar ambientes sensíveis a mudanças climáticas e variações extremas de temperatura e umidade. Ambientes como garagens, espaços industriais ou locais que abrigam populações vulneráveis precisam de uma solução confiável e em tempo real para detectar riscos.
 
 O sistema utiliza sensores conectados a dispositivos IoT, que coletam informações ambientais e as transmitem para uma Web API. Essa API organiza os dados e emite **alertas automáticos** caso os valores ultrapassem os limites seguros.
 
 A interface web, feita com Razor Pages, permite que os usuários visualizem os alertas, dispositivos instalados e os dados de leitura em tempo real. Tudo isso proporciona mais segurança, controle e agilidade na tomada de decisões.
 
-🔗 Rotas  
+---
+
+#🔗 Rotas  
 🔹 UsuarioController  
 
 | Método | Endpoint               | Descrição                |
@@ -78,7 +82,9 @@ json
 }
 
 
----🧑‍💻 Integrantes do Grupo
+---
+
+🧑‍💻 Integrantes do Grupo
 
 Guilherme Romanholi Santos - RM557462
 
