@@ -78,191 +78,141 @@ A interface web, feita com Razor Pages, permite que os usuários visualizem os a
 
 ## 💻Testes para Rodar 
 
-POST /api/usuario
-📌 Cadastra um novo usuário
 
-json
-Copiar
-Editar
+## 📦 Endpoints da API - SafeZone
+
+### 👤 Usuário
+
+#### 🔵 POST - Cadastrar novo usuário
+`POST /api/usuario`
+```json
 {
   "email": "robertolima@gmail.com",
   "senha": "Roberto123",
   "role": "ADMIN"
 }
-http
-Copiar
-Editar
-GET /api/usuario
-📌 Lista todos os usuários
+```
 
-http
-Copiar
-Editar
-GET /api/usuario/{id}
-📌 Retorna os dados de um usuário
+#### 🟢 GET - Listar usuários
+`GET /api/usuario`
 
-http
-Copiar
-Editar
-PUT /api/usuario/{id}
-📌 Atualiza os dados de um usuário
+#### 🟡 GET - Detalhes de um usuário
+`GET /api/usuario/{id}`
 
-json
-Copiar
-Editar
+#### 🟠 PUT - Atualizar usuário
+`PUT /api/usuario/{id}`
+```json
 {
   "email": "julicesar@gmail.com",
   "senha": "Julio123",
   "role": "ADMIN"
 }
-http
-Copiar
-Editar
-DELETE /api/usuario/{id}
-📌 Remove um usuário
+```
 
-🌡️ Leitura
-http
-Copiar
-Editar
-POST /api/leitura
-📌 Registra uma nova leitura
+#### 🔴 DELETE - Remover usuário
+`DELETE /api/usuario/{id}`
 
-json
-Copiar
-Editar
+---
+
+### 🌡️ Leitura
+
+#### 🔵 POST - Nova leitura
+`POST /api/leitura`
+```json
 {
   "dataHora": "2025-06-08T12:00:00",
   "temperatura": 31.5,
   "umidade": 65.2
 }
-http
-Copiar
-Editar
-GET /api/leitura
-📌 Lista todas as leituras
+```
 
-http
-Copiar
-Editar
-GET /api/leitura/{id}
-📌 Retorna os dados de uma leitura
+#### 🟢 GET - Listar leituras
+`GET /api/leitura`
 
-http
-Copiar
-Editar
-PUT /api/leitura/{id}
-📌 Atualiza uma leitura
+#### 🟡 GET - Detalhes da leitura
+`GET /api/leitura/{id}`
 
-json
-Copiar
-Editar
+#### 🟠 PUT - Atualizar leitura
+`PUT /api/leitura/{id}`
+```json
 {
   "dataHora": "2025-06-08T15:00:00",
   "temperatura": 30.1,
   "umidade": 60.0
 }
-http
-Copiar
-Editar
-DELETE /api/leitura/{id}
-📌 Remove uma leitura
+```
 
-📍 Dispositivo
-http
-Copiar
-Editar
-POST /api/dispositivo
-📌 Cadastra um novo dispositivo
+#### 🔴 DELETE - Remover leitura
+`DELETE /api/leitura/{id}`
 
-json
-Copiar
-Editar
+---
+
+### 📍 Dispositivo
+
+#### 🔵 POST - Cadastrar dispositivo
+`POST /api/dispositivo`
+```json
 {
   "latitude": -23.5505,
   "longitude": -46.6333,
   "descricao_Local": "Garagem Principal",
   "ativo": 1
 }
-http
-Copiar
-Editar
-GET /api/dispositivo
-📌 Lista todos os dispositivos
+```
 
-http
-Copiar
-Editar
-GET /api/dispositivo/{id}
-📌 Retorna os dados de um dispositivo
+#### 🟢 GET - Listar dispositivos
+`GET /api/dispositivo`
 
-http
-Copiar
-Editar
-PUT /api/dispositivo/{id}
-📌 Atualiza um dispositivo
+#### 🟡 GET - Detalhes do dispositivo
+`GET /api/dispositivo/{id}`
 
-json
-Copiar
-Editar
+#### 🟠 PUT - Atualizar dispositivo
+`PUT /api/dispositivo/{id}`
+```json
 {
   "latitude": -23.5560,
   "longitude": -46.6400,
   "descricao_Local": "Garagem Secundária",
   "ativo": 0
 }
-http
-Copiar
-Editar
-DELETE /api/dispositivo/{id}
-📌 Remove um dispositivo
+```
 
-🚨 Alerta
-http
-Copiar
-Editar
-POST /api/alerta
-📌 Cria um novo alerta
+#### 🔴 DELETE - Remover dispositivo
+`DELETE /api/dispositivo/{id}`
 
-json
-Copiar
-Editar
+---
+
+### 🚨 Alerta
+
+#### 🔵 POST - Criar alerta
+`POST /api/alerta`
+```json
 {
   "tipo": "FUMAÇA",
   "descricao": "Sensor detectou fumaça na garagem A",
   "dataHora": "2025-06-08T14:45:00"
 }
-http
-Copiar
-Editar
-GET /api/alerta
-📌 Lista todos os alertas
+```
 
-http
-Copiar
-Editar
-GET /api/alerta/{id}
-📌 Retorna os dados de um alerta
+#### 🟢 GET - Listar alertas
+`GET /api/alerta`
 
-http
-Copiar
-Editar
-PUT /api/alerta/{id}
-📌 Atualiza um alerta
+#### 🟡 GET - Detalhes do alerta
+`GET /api/alerta/{id}`
 
-json
-Copiar
-Editar
+#### 🟠 PUT - Atualizar alerta
+`PUT /api/alerta/{id}`
+```json
 {
   "tipo": "CALOR",
   "descricao": "Temperatura crítica detectada na garagem B",
   "dataHora": "2025-06-08T15:20:00"
 }
-http
-Copiar
-Editar
-DELETE /api/alerta/{id}
-📌 Remove um alerta
+```
+
+#### 🔴 DELETE - Remover alerta
+`DELETE /api/alerta/{id}`
+
 
 
 ## Diagrama 
